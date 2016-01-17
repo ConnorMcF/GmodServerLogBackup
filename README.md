@@ -3,5 +3,5 @@ Saves your logs when you run the write.php file with a GET parameter for 'server
 
 You must create a directory named 'data' in the root of the installation.
 
-The SQL should look like this.
+The SQL should look like this in a table named 'logs'.
 ![Image of phpMyAdmin](http://dump.connormcf.com/1453060645)
