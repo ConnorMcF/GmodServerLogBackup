@@ -21,7 +21,7 @@ if(!isset($data["value"])) {
 }
 */
 $time = time();
-$handle = file_get_contents("ftp://gmod5129:pKXpd9RkWq@185.104.188.17/garrysmod/console.log");
+$handle = file_get_contents("ftp://".$ftpuser.":".$ftppass."@".$ftphost."/".$ftppath);
 file_put_contents("data/".$time.".log",$handle);
 // fclose($handle);
 
