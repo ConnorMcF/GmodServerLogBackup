@@ -11,6 +11,7 @@ $dbname = "serverlogs";
 $ftphost = "localhost";
 $ftpuser = "root";
 $ftppass = "password";
+$ftppath = "garrysmod/console.log" // No following slash (ex. /test is wrong)
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
